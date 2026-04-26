@@ -1,0 +1,29 @@
+{
+  "name": "routic",
+  "owner": {
+    "name": "AllenChou"
+  },
+  "metadata": {
+    "description": "A marketplace for Routic skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "routic",
+      "source": "./plugins/routic",
+      "description": "Step-by-step Routic workflow guidance with a Pythonic, declarative style.",
+      "version": "0.1.0",
+      "author": {
+        "name": "AllenChou"
+      },
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "routic",
+        "workflow",
+        "python",
+        "declarative"
+      ]
+    }
+  ]
+}

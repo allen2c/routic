@@ -1,0 +1,15 @@
+{
+  "name": "routic",
+  "description": "Adds the Routic skill for interactive, step-by-step implementation work.",
+  "version": "0.1.0",
+  "author": {
+    "name": "AllenChou"
+  },
+  "license": "MIT",
+  "keywords": [
+    "routic",
+    "workflow",
+    "python",
+    "declarative"
+  ]
+}
