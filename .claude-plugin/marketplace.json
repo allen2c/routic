@@ -4,14 +4,14 @@
     "name": "AllenChou"
   },
   "metadata": {
-    "description": "A marketplace for Routic skills.",
+    "description": "A marketplace for Routic API design skills.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "routic",
       "source": "./plugins/routic",
-      "description": "Step-by-step Routic workflow guidance with a Pythonic, declarative style.",
+      "description": "Pythonic, path-based API server and client design skills.",
       "version": "0.1.0",
       "author": {
         "name": "AllenChou"
@@ -20,7 +20,9 @@
       "category": "productivity",
       "tags": [
         "routic",
-        "workflow",
+        "api",
+        "server",
+        "client",
         "python",
         "declarative"
       ]

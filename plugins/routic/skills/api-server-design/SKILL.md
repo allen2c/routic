@@ -18,7 +18,7 @@ Given a routes root such as `app/routes`, append the normalized URL segments and
 
 ## Segment Rules
 
-Static path segments keep their URL name:
+Static path segments keep their URL name as the directory name:
 
 ```text
 /v1  -> v1/
@@ -40,8 +40,9 @@ Only map path segments. Ignore query strings, fragments, hosts, schemes, HTTP me
 
 - Treat `/v1/org` and `/v1/org/` as the same route module.
 - Strip leading and trailing slashes before mapping.
-- Preserve version segments literally, such as `v1`, `v2`, and `internal`.
+- Preserve non-parameter segments literally when they are valid Python package names, such as `v1`, `v2`, and `internal`.
 - Convert dynamic `{name}` to `_param_name`.
+- Keep parameter names unchanged after the `_param_` prefix.
 - Do not use bracket directory names like `[org_id]` in Python projects.
 - Do not collapse two routable paths into one `route.py`.
 
@@ -69,7 +70,7 @@ async def get_org() -> dict:
     return {"ok": True}
 ```
 
-Use an empty path (`""`) inside `route.py` because the directory path already carries the URL prefix.
+When showing framework examples, use an empty path (`""`) inside `route.py` because the directory path already carries the URL prefix.
 
 ## Scope
 
