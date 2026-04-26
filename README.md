@@ -1,6 +1,6 @@
 # Routic Skills Marketplace
 
-This repository is a Claude Code plugin marketplace for Routic skills.
+This repository is a Claude Code plugin marketplace for Routic API design skills.
 
 ## Layout
 
@@ -12,7 +12,9 @@ plugins/
     ├── .claude-plugin/
     │   └── plugin.json
     └── skills/
-        └── routic/
+        ├── api-client-design/
+        │   └── SKILL.md
+        └── api-server-design/
             └── SKILL.md
 ```
 
@@ -25,8 +27,7 @@ From Claude Code, add this repository as a local marketplace:
 /plugin install routic@routic
 ```
 
-Then invoke the skill with:
+The included skills are:
 
-```text
-/routic
-```
+- `api-server-design`
+- `api-client-design`
