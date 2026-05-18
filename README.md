@@ -14,7 +14,9 @@ plugins/
     └── skills/
         ├── api-client-design/
         │   └── SKILL.md
-        └── api-server-design/
+        ├── api-server-design/
+        │   └── SKILL.md
+        └── backend-client-design/
             └── SKILL.md
 ```
 
@@ -29,5 +31,6 @@ From Claude Code, add this repository as a local marketplace:
 
 The included skills are:
 
-- `api-server-design`
-- `api-client-design`
+- `api-server-design` — Python API server module layout where URL paths map strictly to `route.py` files.
+- `api-client-design` — Python API client module layout and fluent client interface mirroring the server path map.
+- `backend-client-design` — Language-agnostic backend data-layer client design (CRUD, list, iteration) following OpenAI APIs style for parameters and return values.

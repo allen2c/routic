@@ -1,7 +1,7 @@
 {
   "name": "routic",
-  "description": "Adds Routic skills for API server and client design.",
-  "version": "0.1.0",
+  "description": "Adds Routic skills for API server design, API client design, and OpenAI-style backend data-layer client design.",
+  "version": "0.2.0",
   "author": {
     "name": "AllenChou"
   },
@@ -11,6 +11,10 @@
     "api",
     "server",
     "client",
+    "backend",
+    "crud",
+    "pagination",
+    "openai",
     "python",
     "declarative"
   ]

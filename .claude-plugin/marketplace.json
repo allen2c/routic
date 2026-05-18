@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "A marketplace for Routic API design skills.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "routic",
       "source": "./plugins/routic",
-      "description": "Pythonic, path-based API server and client design skills.",
-      "version": "0.1.0",
+      "description": "Pythonic, path-based API server and client design skills, plus an OpenAI-style backend data-layer client design skill.",
+      "version": "0.2.0",
       "author": {
         "name": "AllenChou"
       },
@@ -23,6 +23,10 @@
         "api",
         "server",
         "client",
+        "backend",
+        "crud",
+        "pagination",
+        "openai",
         "python",
         "declarative"
       ]
